@@ -7,7 +7,7 @@
 
 import java.util.Arrays;
 
-class Solution {
+class ProblemNo1365 {
     public int[] smallerNumbersThanCurrent(int[] nums) {
 
         int[] solutionArr = new int[nums.length] ;
@@ -29,7 +29,7 @@ class Solution {
     public static void main(String[] args) {
         // To run non-static method in static method we have to
         // create instanceof of the class and then call the method in it.
-        Solution solution = new Solution();
+        ProblemNo1365 solution = new ProblemNo1365();
         int[] nums = {8,1,2,2,3};
         int[] solToPrint = solution.smallerNumbersThanCurrent(nums);
 
